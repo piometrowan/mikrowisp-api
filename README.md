@@ -20,7 +20,7 @@ API moderna construida con FastAPI para integrar Mikrowisp CRM con servicios de 
 
 1. Clonar el repositorio:
 ```bash
-git clone <repo-url>
+git clone https://github.com/piometrowan/mikrowisp-api.git
 cd mikrowisp-api
 ```
 
@@ -177,14 +177,6 @@ docker-compose -f docker-compose.prod.yml up -d
 - Health check: `GET /health`
 - Métricas: `GET /metrics` (si Prometheus está habilitado)
 - Logs: Revisar logs del contenedor o archivo configurado
-
-## Contribuir
-
-1. Fork el proyecto
-2. Crear rama feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit cambios (`git commit -am 'Agregar nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Crear Pull Request
 
 ## Soporte
 
