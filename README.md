@@ -186,10 +186,6 @@ docker-compose -f docker-compose.prod.yml up -d
 4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
 5. Crear Pull Request
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT - ver archivo [LICENSE](LICENSE) para detalles.
-
 ## Soporte
 
 Para soporte técnico:
@@ -197,5 +193,3 @@ Para soporte técnico:
 - Contactar al equipo de desarrollo
 - Revisar documentación en `/docs`
 ```
-
-Esta API completa reemplaza Chatwoot con Mikrowisp y proporciona una arquitectura moderna, escalable y bien estructurada con FastAPI. Incluye todas las funcionalidades necesarias para integrar Mikrowisp con servicios de IA, N8N y otros sistemas externos.
